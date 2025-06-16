@@ -4,6 +4,7 @@
 		"stdlib.h": "c",
 		"stdio.h": "c",
 		"compiler.h": "c",
-		"helpers.h": "c"
+		"helpers.h": "c",
+		"lexer.h": "c"
 	}
 }
