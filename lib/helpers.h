@@ -6,5 +6,6 @@
 
 int crash(int error);
 void manual();
+int min(int, int);
 
 #endif

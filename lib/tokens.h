@@ -1,0 +1,13 @@
+#ifndef TOKENS_H
+#define TOKENS_H
+
+typedef enum
+{
+	TOKEN_RETURN,
+	TOKEN_INTEGER_LITERAL,
+	TOKEN_SEMICOLON,
+	TOKEN_IDENTIFIER,
+	TOKEN_EOF
+} TOKENS;
+
+#endif

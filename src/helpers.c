@@ -31,3 +31,13 @@ void manual() {
 	printf("Please follow the format to compile your program below.\n");
 	printf("nevz <input.nevz> <outout.asm>\n");
 }
+
+int min(int x, int y)
+{
+	if (x < y)
+	{
+		return x;
+	}
+
+	return y;
+}
