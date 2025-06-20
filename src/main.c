@@ -1,14 +1,9 @@
 #include <stdio.h>
 
-#include "lib/compiler.h"
-#include "lib/lexer.h"
+#include "include/compiler.h"
+#include "include/lexer.h"
 
 
-<<<<<<< Updated upstream
-int main(int argc, char const *argv[]) {
-	compile(argc, argv);
-
-=======
 int main(int argc, const char *argv[]) 
 {
 	if (argc < 2)
@@ -31,6 +26,5 @@ int main(int argc, const char *argv[])
 
 	free(file);
 
->>>>>>> Stashed changes
 	return 0;
 }

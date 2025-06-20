@@ -1,4 +1,4 @@
-#include "lib/lexer.h"
+#include "include/lexer.h"
 
 /**
  * @param source (char pointer) the token which is going to be lexed and identified as a token type

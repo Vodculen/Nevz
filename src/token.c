@@ -1,4 +1,4 @@
-#include "lib/token.h"
+#include "include/token.h"
 
 
 TOKEN* new(char value[], TOKENS token_type)
@@ -30,7 +30,7 @@ char* tokenstr(TOKEN* token)
 	const char* type = typestr(token -> type);
 	const char* template = "<| Type: \"%s\", Value: \"%s\" |>";
 
-	char* string = calloc(strlen(type) + strlen(token->value) + strlen(template) + 1, sizeof(char));
+	char* string = calloc(strlen(type) + strlen(token->value) + strlen(template) + 4, sizeof(char));
 	sprintf(string, template, type, token -> value);
 
 	return string;
