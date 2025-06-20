@@ -1,4 +1,4 @@
-#include "../lib/token.h"
+#include "lib/token.h"
 
 
 TOKEN* new(char value[], TOKENS token_type)

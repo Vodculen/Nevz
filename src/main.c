@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "../lib/compiler.h"
-#include "../lib/lexer.h"
+#include "lib/compiler.h"
+#include "lib/lexer.h"
 
 
 <<<<<<< Updated upstream
