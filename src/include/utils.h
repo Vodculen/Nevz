@@ -2,8 +2,10 @@
 #include <stdlib.h>
 
 
-void error(int status) {
-	switch (status) {
+void error(int status)
+{
+	switch (status)
+	{
 		case 1: 
 			printf("Too little parameters where given to compile the program\n");
 			break;
